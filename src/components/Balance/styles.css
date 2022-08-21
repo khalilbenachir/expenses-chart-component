@@ -1,0 +1,23 @@
+.balance-container {
+  background-color: var(--soft-red);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  color: white;
+}
+
+.balance-header {
+  font-size: 0.875rem;
+}
+
+.balance-details{
+    font-weight: 700;
+}
